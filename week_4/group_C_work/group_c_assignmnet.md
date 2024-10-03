@@ -1,6 +1,7 @@
 We started off by brain storming how to set up a program that shows the number of people actively accessing a website 
 The program was to count the number of people coming to and leaving the website and ensuring that the threshold number of participants was not exceeded
 We first let the initial number of user in a variable be 170
+
 ```
 let number_of_users = 170;
 ```
@@ -23,7 +24,7 @@ We then came up with an idea to use a nested loop of a while loop in a for loop
 This was to create 2 scenarios were users were joining and others leaving
             
             ///////SCENARIO 1////////
-W/hile the number of users of the site is less than 200
+While the number of users of the site is less than 200
 ```
 while (current_users < 200)
 ```
