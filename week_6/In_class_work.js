@@ -45,7 +45,7 @@ condition 2
 If statements help when fulfilling a given condition of true or false where the if statement is for the true value
 
 /////Given the following code what will be the output and why? */
-
+/*
 let temperature = 30;
 
 if (temperature >25){
@@ -72,15 +72,62 @@ else{
 }
 
 
+//&& is the logical AND  statement in java script//
+/*
+TRUE && TRUE = TRUE
+FALSE && TRUE = FALSE
+FALSE && FALSE = FALSE
+*/
+
+// || is the logical OR  statement in java script//
+/*
+TRU || TRUE = TRUE
+FALSE || TRUE = TRUE
+FALSE || FALSE = FALSE
 
 
+var email = "Kaizzelijah@gmail.com";
+var phone ="0774636422";
+var password = "1234";
+
+if (email == "Kaizzielijah@gmail.com" || phone == "0774636422" && password == "1234"){
+    console.log("You are logged in");
+}
+else{
+    console.log("You are not logged in");
+}
 
 
+/////NESTED IF STATEMENTS //////
+//concider the code snippet below
 
+let age = 18;
+if (age >=18){
+    if (age< 65){
+        console.log("You are eligible to work");
+    }
+    else{
+        console.log("You are of retirement age");
+    }
+}
+else{
+    console.log("You are too young to work");
+}
 
+*/
 
+//Rewrite the code using  a sing of-else statement without nesting
+age = 2;
 
-
+if (age >= 65){
+    console.log("You are too old to work");
+}
+else if(age >= 18){
+    console.log("You are eligible to work");
+}
+else{
+    console.log("You are too young to work");
+}
 
 
 
