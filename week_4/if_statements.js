@@ -9,7 +9,7 @@
 let number = 5;
 
 if (number > 0){
-    console.log("The number is positive ");
+    console.log("The number is posuitive ");
     
 }
 //Example 2//
@@ -100,11 +100,11 @@ if (number >= 0 ){
 else{
     console.log("The number is negative ")
 }
-*/
+
 
 //Example 2//
 let expired = false;//this is a boolean//
-let quality = 7;
+let quality = 16;
 
 if (expired === true){
     console.log("Do not use ")
@@ -121,9 +121,39 @@ else{
     }
 }
 
+                ///PRACTICE//
+//1. Even or ODD
+let number = 0;
+if (number <= 0){
+    console.log("The number cannot be less than or equal to 0");
+}
+else{
+    if(number % 2 === 0){
+        console.log("The number is EVEN ");
+    }else{
+        console.log("The number is ODD")
+    }
+}
+*/
+//2.Employee Salary
 
+function calculateSalary(baseSalary, yearsOfService){
+    var bonus;
+    bonus = 0;
 
-
+    if (yearsOfService < 2){
+        bonus = 0;
+    }else if(yearsOfService > 2 && yearsOfService<= 5){
+        bonus = baseSalary*0.05;
+    }
+    else if(yearsOfService > 5 ){
+        bonus = baseSalary * 0.1;
+    }
+    var FinalSalary;
+    FinalSalary = baseSalary + bonus;
+console.log(`Your salary is `, FinalSalary);
+}
+calculateSalary(90000,1);
 
 
 
