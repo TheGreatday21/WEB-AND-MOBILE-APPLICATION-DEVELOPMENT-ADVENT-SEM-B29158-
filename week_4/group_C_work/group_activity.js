@@ -14,7 +14,7 @@ if (number_of_users > 100) {
   console.log("Network is overloaded!!");
 }
 
-//initilize the joining or leaving variables
+//initialize the joining or leaving variables
 let joining = 10;
 let leaving = 10;
 

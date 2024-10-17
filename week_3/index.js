@@ -10,7 +10,7 @@ const MAX_SPEED = 9000;
 let  is_student = false;//This is bool in java//
 
 var school_name = "UCU"
-//in java script the == is a loose equality while the === is an absolute equality like the == in python //
+//in java script the == is a loose equality while the === is an absolute equality like the == in python  and the = is used for assigning variables//
 // IF statements in java script //
 
 //They have a syntax  is "if()"-were the condition is put in the brackets //

@@ -4,6 +4,7 @@ console.log(data[indexhere]. variablenamehere);
 
 */
 //Question: Write a for loop to read through a list 
+//we create a list first ...Different criteria from python but ultimately the same
 let data = [
     {district:"Malaba", rainfall: 343},
     {district:"Gulu", rainfall: 123},
@@ -11,6 +12,7 @@ let data = [
 ];
 
                 //////SCENARIO 1///////
+
 //Malaba
 console.log(data[0].district);
 console.log(data[0].rainfall);
@@ -22,6 +24,7 @@ console.log(data[2].district);
 console.log(data[2].rainfall);
 
             //////SCENARIO 2 USING A FOR LOOP /////
-for (let z=0; z< 3; z++){
+for (let z=0; z <3; z++){
     console.log(data[z].district);
+    console.log(data[z].rainfall);
 }
