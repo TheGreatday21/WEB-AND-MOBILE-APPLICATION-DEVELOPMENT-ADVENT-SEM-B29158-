@@ -1,4 +1,4 @@
-/*In java script there are 2 ways to recieve user input
+/*In java script there are 2 ways to receive user input
 1. Using window prompts  -- LESS PROFESSIONAL BUT EASIEST
 2. Using HTML    -- MORE PROFESSIONAL
 */
@@ -13,7 +13,7 @@ let height;
 
 
 username = window.prompt("What is your name");
-console.log(username);
+console.log(`So your name is ${username}, that's interesting 😂 `);
 
 
 

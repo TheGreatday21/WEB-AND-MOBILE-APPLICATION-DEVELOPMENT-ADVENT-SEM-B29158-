@@ -1,5 +1,5 @@
 //This is my first java script programm//
-console.log("Hello world");//a way of printing in js//
+console.log("Hello world");//a way of printing output in js//
 
 //python equivalent is print()
 console.log("Kawooma Elijah Kaizzi");

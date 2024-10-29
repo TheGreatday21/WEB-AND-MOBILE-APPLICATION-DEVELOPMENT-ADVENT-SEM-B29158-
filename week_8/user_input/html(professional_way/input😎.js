@@ -1,2 +1,2 @@
 let username  = window.prompt("what is your name nigga ");
-console.log(username)
+console.log(`So you are called ${username}`);
