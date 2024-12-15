@@ -12,7 +12,7 @@ function summation() {
     var num_1 = 23;
     var num_2 = 56;
     var sum_1 = num_1 + num_2;
-    console.log("Sum one is", sum_1)
+    console.log("Sum one is", sum_1);
 }
 summation();
 
