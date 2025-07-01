@@ -1,4 +1,4 @@
-const mongoose = require('mogoose');
+const mongoose = require('mongoose');
 const { timeStamp } = require('node:console');
 
 const ProductSchema = mongoose.Schema(
@@ -29,4 +29,4 @@ const ProductSchema = mongoose.Schema(
 
 const Product = mongoose.model("Product",ProductSchema);
 
-module.exports(Product);
+module.exports = (Product);
