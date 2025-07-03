@@ -120,7 +120,7 @@ app.delete('/api/products/:id' , async(req,res) =>{
                     ////Over crowding the index file is not good practice so we have to create specific files to handle specific tasks. This is called a RESTFUL API
 
 */
-
+  
 
 
 
