@@ -23,6 +23,18 @@ function add(num2,num1) {
 add(34,10);
 
 
+//there are 2 wways to compare values in js 
+
+
+//truthy comparison 
+let a = 2;
+let b = '2';
+
+console.log(a == b); //this will give us true cause they technically look the same. This is referred to as loose equality 
+
+console.log(a === b);//this is referred to as strict equality only returns true if the values are the same and the same data type
+
+
 
 
 
