@@ -11,7 +11,7 @@ let name = 'keks'; //string
 let male = true; //bool
 let height = 189.4; //float or double(bigger float)
 
-//object literal - lowkey feels like a dictionary . has alot of key value pairs 
+//object literal - lowkey feels like a dictionary on steriods cause it can take functions as key value pairs . has alot of key value pairs 
 let course = {
     name : "Data science",
     period: 4,

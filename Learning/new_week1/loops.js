@@ -33,7 +33,7 @@ do {
 
 //USING FOR LOOPS TO ITERATE OVER JS OBJECTS 
 
-let course = {
+let course = {//tthis is a js object
     name: "Js for beginners",
     duration: 3,
     section: 7
@@ -53,7 +53,7 @@ for (const key in course) {
 
                     /////  FOR OF loop  /////
 //it reduces the number of times we iterate in our for loop 
- ///ITT IS ONLY USED FOR ----arrays---------
+ ///IT IS ONLY USED FOR ----arrays---------
 let ages = [12,2,35,43,19,20];
 
 for (const element of ages) {
@@ -73,7 +73,7 @@ for (let i = 0; i < 10; i++) {
 }
 
             ///// CONTINUE STATEMENTS 
-//
+//This jumps a step according to a given condition like in this case whenever it sees an even number it just contnues the code to the console.log statement 
 
 const arr = [1,2,3,4,5,6,7,8];
 
